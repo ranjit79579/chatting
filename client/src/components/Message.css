@@ -1,0 +1,30 @@
+.messageBox{
+
+   
+   
+    margin: 10px;
+    font-size: x-large;
+    display: flex;
+   align-items: center;
+   padding: 10px;
+   clear: both;
+   display: inline-block;
+   border-radius: 5px;
+  
+}
+
+.right{
+    background-color: rgb(167, 83, 246);
+   
+    float: right;
+    color: white;
+}
+.left{
+    float: left;
+    background-color: rgb(152, 14, 190) ;
+
+    color: white;
+}
+
+
+

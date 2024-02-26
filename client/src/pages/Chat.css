@@ -1,0 +1,123 @@
+.chatPage {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(162, 152, 152);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chatContainer{
+    height: 600px;
+    width: 600px;
+    /* border: 2px solid rgb(25, 222, 229); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 600px ;
+    width: 600px;
+  
+}
+
+.chatHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    background-color: rgb(12, 43, 244);
+    height: 40px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+   
+}
+.header h2{
+color: white;
+margin-left: 15px;
+}
+.cross{
+    border: none;
+    outline: none;
+}
+.cross p{
+    font-size: 25px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+   
+}
+.chatBox{
+    height: 520px;
+    width: 600px;
+}
+.inputBox{
+    height: 40px;
+    width: 600px;
+    border-top: 2px solid rgb(128, 203, 119);
+   
+}
+
+#chatInput{
+    height: 40px;
+    width: 80%;
+    border: none;
+    font-size: 20px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.sendBtn{
+    height: 40px;
+    width: 20%;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(87, 226, 22);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.sendBtn:hover{
+    background-color: rgb(69, 188, 14);
+}
+
+
+/* ************** extra small devices ************* */
+
+@media(max-width:600px){
+    .chatPage {
+        height: 1180px;
+        width: 100vh;
+        background-color: rgb(186, 184, 184);
+      }
+      
+      .header{
+          height: 80px;
+      }
+     
+      
+      .cross p{
+          margin-right: 15px;
+      }
+      .chatBox{
+          height: 520px;
+          width: 600px;
+      }
+      
+      #chatInput{
+          height: 60px;
+          font-size: 30px;
+      }
+      
+      .sendBtn{
+          height: 60px;
+          font-size: 30px;
+      }
+     
+}
